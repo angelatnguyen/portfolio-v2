@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Angela Nguyen | Front-End Web Developer</title>
+    
+        <!-- Styles -->
+        <link rel="stylesheet" href="foundation/css/foundation.css" />
+        <link rel="stylesheet" href="foundation/css/app.css" />
+        <link rel="stylesheet" href="main.css" />
+
+        <!-- Fonts -->
+        <link href='https://fonts.googleapis.com/css?family=Cabin:400,700' rel='stylesheet' type='text/css'>
+        <link href='https://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+
+        <!-- Favicon -->
+        <link rel="icon" href="img/favicon.png" type="image/png">
+    </head>
+    
+    <body>
+       
+        <header>
+            <div class="logo-wrapper">
+                <img class="logo-img" src="img/about.jpg">
+            </div>
+            <div class="intro-text">
+                <p id="name">Angela Nguyen</p>
+                <p id="description">Front-End Web Developer</p>
+            </div> 
+            <ul class="vertical menu hide-for-small-only" id="social-menu">
+                <li><a href="mailto:nguyenmtangela@gmail.com" target="_blank"><span class="social-icon"><i class="fa fa-envelope-square"></i></span>Email</a></li>
+                <li><a href="https://www.linkedin.com/in/angelatnguyen" target="_blank"><span class="social-icon"><i class="fa fa-linkedin-square"></i></span>Linkedin</a></li>
+                <li><a href="https://github.com/angelatnguyen" target="_blank"><span class="social-icon"><i class="fa fa-github-square"></i></span>Github</a></li>
+            </ul>
+        </header>  
+        
+        <section name="projects" class="projects">
+            <div class="row small-up-1 medium-up-2 large-up-2">
+                <div class="column">
+                    <img class="project-img" src="img/project1.png">
+                    <p class="project-title"><a href="http://atnpiano.com/">ATN Piano</a></p>
+                    <p class="project-type"><span class="arrow"><i class="fa fa-caret-right"></span></i>HTML, CSS, JointsWP</p>
+                </div>
+                <div class="column">
+                    <img class="project-img" src="img/project2.png">
+                    <p class="project-title"><a href="http://www.monicanguyen.design/">Art Portfolio</a></p>
+                    <p class="project-type"><span class="arrow"><i class="fa fa-caret-right"></span></i>HTML, CSS, Foundation</p>
+                </div>
+                <div class="column">
+                    <img class="project-img" src="img/project3.png">
+                    <p class="project-title"><a href="http://www.angelatnguyen.com/portfolio-v1">Portfolio V1</a></p>
+                    <p class="project-type"><span class="arrow"><i class="fa fa-caret-right"></span></i>HTML, CSS, Foundation</p>
+                </div>
+                <div class="column">
+                    <img class="project-img" src="img/project4.png">
+                    <p class="project-title"><a href="http://www.angelatnguyen.com/95degreecafe">95 Degree Cafe</a></p>
+                    <p class="project-type"><span class="arrow"><i class="fa fa-caret-right"></span></i>HTML, CSS, Foundation</p>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="social-icons show-for-small-only">
+                <ul>
+                    <li><a href="mailto:nguyenmtangela@gmail.com" target="_blank"><i class="fa fa-envelope-square"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/angelatnguyen" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+                    <li><a href="https://github.com/angelatnguyen" target="_blank"><i class="fa fa-github-square"></i></a></li>
+                </ul>
+            </div>  
+            <p class="copyright">&copy; Angela Nguyen</p>
+        </footer>
+
+        <script src="foundation/js/vendor/jquery.min.js"></script>
+        <script src="foundation/js/vendor/what-input.min.js"></script>
+        <script src="foundation/js/foundation.min.js"></script>
+        <script src="foundation/js/app.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        
+        <script>
+
+            $('#main-menu li').click(function(evt) {
+                $('.menu-icon').click();
+            });
+
+        </script>
+    </body>
+</html>
